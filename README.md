@@ -24,7 +24,7 @@ Para detener el cluster de Postgres, ejecutar el siguiente comando:
 docker-compose down -v
 ```
 
-> ![CAUTION]
+> [!CAUTION]
 > Este comando borra todos los contenedores y volúmenes creados por `docker-compose up`.
 
 ## Acceso
@@ -48,7 +48,7 @@ docker-compose down -v
 
 ## Notas
 
-> [!TIP]
+> [!NOTE]
 > A tener en cuenta
 
 ```
