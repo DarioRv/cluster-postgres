@@ -2,7 +2,7 @@
 
 Contenido:
 
-- Cluster de Postgres con 1 nodo maetro y 1 nodo esclavo.
+- Cluster de Postgres con 1 nodo maestro y 1 nodo esclavo.
 - Balanceador de carga con Failover.
 - Postgres Exporter.
 - Prometheus.
@@ -24,6 +24,9 @@ Para detener el cluster de Postgres, ejecutar el siguiente comando:
 docker-compose down -v
 ```
 
+> ![CAUTION]
+> Este comando borra todos los contenedores y volúmenes creados por `docker-compose up`.
+
 ## Acceso
 
 - Cluster de Postgres (balanceador de carga): `localhost:5434`
@@ -44,6 +47,9 @@ docker-compose down -v
   - password: `admin`
 
 ## Notas
+
+> [!TIP]
+> A tener en cuenta
 
 ```
 Id de dashboards en Grafana:
