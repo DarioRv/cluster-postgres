@@ -50,6 +50,7 @@ services:
       "
     depends_on:
       - postgres_primary
+  # PgAdmin para administrar PostgreSQL
   pgadmin:
     image: elestio/pgadmin
     environment:
